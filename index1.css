@@ -1,0 +1,258 @@
+body{
+    background-color: black;
+    font-family: 'WebFont', Arial, sans-serif;
+    overflow-x: visible;
+}
+.available{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: normal;
+    position: relative;
+    top: 30px;
+    border-style: inset;
+}
+#blockblack{
+    position: relative;
+    width: 200px;
+    height: 45px;
+    background:black;
+    margin-top: 0px
+    margin: auto;
+  
+}
+#blockwhite{
+    position: absolute;
+    width: 1080px;
+    height: 73px;
+    background: rgb(241, 241, 241);
+    margin-top: 0px;
+    padding-top: 0%;
+    margin: auto;
+}
+#blockwhite,
+#blockblack{
+    display: inline-block;
+}
+#adult{
+    position: relative;
+    top: 22px;
+    left: -50spx;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 20px;
+}
+.sidebar,
+li{
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 20px;
+    font-size: 10px;
+    padding-left: 0px;
+}
+#reddott{
+    text-align: left;
+}
+#research{
+    position: relative;
+    left:1025px;
+    top: -30px;
+    width: 50px;
+    z-index: 1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#research:hover{
+    background-color: rgb(218, 188, 24);
+}
+.section {
+    position:relative;
+    width:100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+#sectionh1{
+    position:relative;
+    text-align: left;
+}
+#rick{
+    position: relative;
+    top: 20px;
+    margin-left: 30px;
+}
+
+#black{
+    position:relative;
+    top: 0px;
+    margin-left: 30px;
+
+}
+#content{
+    text-align: center;
+    font-size: 6rem;
+}
+.video-container{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    z-index: -1;
+    border-top: -10px solid;
+    width: 1300px;
+    overflow:hidden;
+    display:block;
+    height: 500px;
+}
+
+#months{
+    color: rgb(124, 124, 124);
+}
+.blackbutton{
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 4px double #ffffff;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 900;
+    padding: 10px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+button.\1d whitebutton{
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 4px double #000000;
+    color: #000000;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 900;
+    padding: 10px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    z-index: 3;
+}
+.blackbutton:hover,
+button.\1d whitebutton:hover{
+    background-color: goldenrod;
+    z-index: 3;
+}
+}
+article{
+    margin-left: 60px;
+    position: relative;
+    top: -365px;
+}
+#epi{
+    position: relative;
+    margin-left: 30px;
+}
+#seasons{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    opacity: 0.6;
+    z-index: -10;
+}
+.bott{
+        display: inline-block;
+        padding-inline-start: 0mm;
+        position: relative;
+        color: #000000;
+        text-align: left;
+        font-size: 12px;
+        font-weight: 900;
+        padding: 2px;
+        width: 50px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 2px;
+        z-index: 3;
+        padding: 0;
+        border: none;
+        background: none;
+    }
+.bott:hover{
+    color: red;
+}
+#title{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+#face{
+    position: relative;
+    top: 230px;
+    left: 100px;
+}
+#insta{
+        position: relative;
+        top: 230px;
+        left: 180px;
+    }
+#twi{
+    position: relative;
+    top: 230px;
+    left: 250px;
+}
+#hz{
+    position: relative;
+    left: 290px;
+    bottom: -220px;
+}
+#site1{
+    font-size: 25px;
+    position: relative;
+    top: -45px;
+    left: 900px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 700;
+}
+footer{
+    font-size: 13px;
+    position: relative;
+    bottom: 100px;
+    left: 300px;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+#bestimage{
+    position: relative;
+    bottom: 1250px;
+    left: 1060px;
+}
+#bestimage2{
+    position: relative;
+    bottom: 1250px;
+    left: -80px;
+}
